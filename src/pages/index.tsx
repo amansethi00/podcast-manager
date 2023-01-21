@@ -14,8 +14,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
+          <main className={styles.main}>
+            <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
@@ -111,6 +111,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Deploy <span>-&gt;</span>
             </h2>
+            <p className='bold text-red-400' >Hello Aman world</p>
             <p className={inter.className}>
               Instantly deploy your Next.js site to a shareable URL
               with&nbsp;Vercel.
